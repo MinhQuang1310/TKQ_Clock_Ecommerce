@@ -1,0 +1,581 @@
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\TKQClock.dll.config
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\TKQClock.dll
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\TKQClock.pdb
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\csc.exe
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\csc.exe.config
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\csc.rsp
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\csi.exe
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\csi.exe.config
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\csi.rsp
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\System.AppContext.dll
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Collections.Immutable.dll
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Console.dll
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Globalization.Calendars.dll
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\System.IO.Compression.dll
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\System.IO.FileSystem.dll
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Net.Http.dll
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Net.Sockets.dll
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Reflection.Metadata.dll
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\System.ValueTuple.dll
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Xml.XPath.dll
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\vbc.exe
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\vbc.exe.config
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\vbc.rsp
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\VBCSCompiler.exe
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\VBCSCompiler.exe.config
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\Antlr3.Runtime.dll
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\Microsoft.Web.Infrastructure.dll
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\Newtonsoft.Json.dll
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\System.Web.Helpers.dll
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\System.Web.Mvc.dll
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\System.Web.Optimization.dll
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\System.Web.Razor.dll
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\System.Web.WebPages.Deployment.dll
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\System.Web.WebPages.dll
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\System.Web.WebPages.Razor.dll
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\WebGrease.dll
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\System.Web.Helpers.xml
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\System.Web.Mvc.xml
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\System.Web.Optimization.xml
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\System.Web.Razor.xml
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\System.Web.WebPages.xml
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\System.Web.WebPages.Deployment.xml
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\System.Web.WebPages.Razor.xml
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\Newtonsoft.Json.xml
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\Antlr3.Runtime.pdb
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\obj\Debug\TKQClock.csproj.AssemblyReference.cache
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\obj\Debug\TKQClock.csproj.CoreCompileInputs.cache
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\obj\Debug\TKQClock.csproj.CopyComplete
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\obj\Debug\TKQClock.dll
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\obj\Debug\TKQClock.pdb
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\PagedList.dll
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\PagedList.Mvc.dll
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\PagedList.xml
+D:\Document\Đồ án LT Web\TKQClock\TKQClock\TKQClock\bin\PagedList.Mvc.xml
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\TKQClock.dll.config
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\TKQClock.dll
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\TKQClock.pdb
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\csc.exe
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\csc.exe.config
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\csc.rsp
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\csi.exe
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\csi.exe.config
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\csi.rsp
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\System.AppContext.dll
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Collections.Immutable.dll
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Console.dll
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Globalization.Calendars.dll
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\System.IO.Compression.dll
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\System.IO.FileSystem.dll
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Net.Http.dll
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Net.Sockets.dll
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Reflection.Metadata.dll
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\System.ValueTuple.dll
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Xml.XPath.dll
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\vbc.exe
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\vbc.exe.config
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\vbc.rsp
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\VBCSCompiler.exe
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\roslyn\VBCSCompiler.exe.config
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\Antlr3.Runtime.dll
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\Microsoft.Web.Infrastructure.dll
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\Newtonsoft.Json.dll
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\PagedList.dll
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\PagedList.Mvc.dll
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\System.Web.Helpers.dll
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\System.Web.Mvc.dll
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\System.Web.Optimization.dll
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\System.Web.Razor.dll
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\System.Web.WebPages.Deployment.dll
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\System.Web.WebPages.dll
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\System.Web.WebPages.Razor.dll
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\WebGrease.dll
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\PagedList.xml
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\PagedList.Mvc.xml
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\System.Web.Helpers.xml
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\System.Web.Mvc.xml
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\System.Web.Optimization.xml
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\System.Web.Razor.xml
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\System.Web.WebPages.xml
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\System.Web.WebPages.Deployment.xml
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\System.Web.WebPages.Razor.xml
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\Newtonsoft.Json.xml
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\Antlr3.Runtime.pdb
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\obj\Debug\TKQClock.csproj.AssemblyReference.cache
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\obj\Debug\TKQClock.csproj.CoreCompileInputs.cache
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\obj\Debug\TKQClock.csproj.CopyComplete
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\obj\Debug\TKQClock.dll
+D:\Document\LT Web\TKQClock\TKQClock\TKQClock\obj\Debug\TKQClock.pdb
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\TKQClock.dll.config
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\TKQClock.dll
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\TKQClock.pdb
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\roslyn\csc.exe
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\roslyn\csc.exe.config
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\roslyn\csc.rsp
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\roslyn\csi.exe
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\roslyn\csi.exe.config
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\roslyn\csi.rsp
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\roslyn\System.AppContext.dll
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Collections.Immutable.dll
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Console.dll
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Globalization.Calendars.dll
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\roslyn\System.IO.Compression.dll
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\roslyn\System.IO.FileSystem.dll
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Net.Http.dll
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Net.Sockets.dll
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Reflection.Metadata.dll
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\roslyn\System.ValueTuple.dll
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Xml.XPath.dll
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\roslyn\vbc.exe
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\roslyn\vbc.exe.config
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\roslyn\vbc.rsp
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\roslyn\VBCSCompiler.exe
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\roslyn\VBCSCompiler.exe.config
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\Antlr3.Runtime.dll
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\Microsoft.Web.Infrastructure.dll
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\Newtonsoft.Json.dll
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\PagedList.dll
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\PagedList.Mvc.dll
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\System.Web.Helpers.dll
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\System.Web.Mvc.dll
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\System.Web.Optimization.dll
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\System.Web.Razor.dll
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\System.Web.WebPages.Deployment.dll
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\System.Web.WebPages.dll
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\System.Web.WebPages.Razor.dll
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\WebGrease.dll
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\PagedList.xml
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\PagedList.Mvc.xml
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\System.Web.Helpers.xml
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\System.Web.Mvc.xml
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\System.Web.Optimization.xml
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\System.Web.Razor.xml
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\System.Web.WebPages.xml
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\System.Web.WebPages.Deployment.xml
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\System.Web.WebPages.Razor.xml
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\Newtonsoft.Json.xml
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\Antlr3.Runtime.pdb
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\obj\Debug\TKQClock.csproj.AssemblyReference.cache
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\obj\Debug\TKQClock.csproj.CoreCompileInputs.cache
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\obj\Debug\TKQClock.csproj.CopyComplete
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\obj\Debug\TKQClock.dll
+D:\Document\LT Web\Project\TKQClock\TKQClock\TKQClock\obj\Debug\TKQClock.pdb
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\TKQClock.dll.config
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\TKQClock.dll
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\TKQClock.pdb
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\roslyn\csc.exe
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\roslyn\csc.exe.config
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\roslyn\csc.rsp
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\roslyn\csi.exe
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\roslyn\csi.exe.config
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\roslyn\csi.rsp
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\roslyn\System.AppContext.dll
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Collections.Immutable.dll
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Console.dll
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Globalization.Calendars.dll
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\roslyn\System.IO.Compression.dll
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\roslyn\System.IO.FileSystem.dll
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Net.Http.dll
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Net.Sockets.dll
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Reflection.Metadata.dll
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\roslyn\System.ValueTuple.dll
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Xml.XPath.dll
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\roslyn\vbc.exe
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\roslyn\vbc.exe.config
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\roslyn\vbc.rsp
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\roslyn\VBCSCompiler.exe
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\roslyn\VBCSCompiler.exe.config
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\Antlr3.Runtime.dll
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\Microsoft.Web.Infrastructure.dll
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\Newtonsoft.Json.dll
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\PagedList.dll
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\PagedList.Mvc.dll
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\System.Web.Helpers.dll
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\System.Web.Mvc.dll
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\System.Web.Optimization.dll
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\System.Web.Razor.dll
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\System.Web.WebPages.Deployment.dll
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\System.Web.WebPages.dll
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\System.Web.WebPages.Razor.dll
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\WebGrease.dll
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\PagedList.xml
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\PagedList.Mvc.xml
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\System.Web.Helpers.xml
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\System.Web.Mvc.xml
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\System.Web.Optimization.xml
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\System.Web.Razor.xml
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\System.Web.WebPages.xml
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\System.Web.WebPages.Deployment.xml
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\System.Web.WebPages.Razor.xml
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\Newtonsoft.Json.xml
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\Antlr3.Runtime.pdb
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\obj\Debug\TKQClock.csproj.AssemblyReference.cache
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\obj\Debug\TKQClock.csproj.CoreCompileInputs.cache
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\obj\Debug\TKQClock.csproj.CopyComplete
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\obj\Debug\TKQClock.dll
+D:\Workplace\test bai\TKQClock\TKQClock\TKQClock\obj\Debug\TKQClock.pdb
+D:\Document\LT Web\TKQClock\TKQClock\bin\TKQClock.dll.config
+D:\Document\LT Web\TKQClock\TKQClock\bin\TKQClock.dll
+D:\Document\LT Web\TKQClock\TKQClock\bin\TKQClock.pdb
+D:\Document\LT Web\TKQClock\TKQClock\bin\roslyn\csc.exe
+D:\Document\LT Web\TKQClock\TKQClock\bin\roslyn\csc.exe.config
+D:\Document\LT Web\TKQClock\TKQClock\bin\roslyn\csc.rsp
+D:\Document\LT Web\TKQClock\TKQClock\bin\roslyn\csi.exe
+D:\Document\LT Web\TKQClock\TKQClock\bin\roslyn\csi.exe.config
+D:\Document\LT Web\TKQClock\TKQClock\bin\roslyn\csi.rsp
+D:\Document\LT Web\TKQClock\TKQClock\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Document\LT Web\TKQClock\TKQClock\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Document\LT Web\TKQClock\TKQClock\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Document\LT Web\TKQClock\TKQClock\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Document\LT Web\TKQClock\TKQClock\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Document\LT Web\TKQClock\TKQClock\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Document\LT Web\TKQClock\TKQClock\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Document\LT Web\TKQClock\TKQClock\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Document\LT Web\TKQClock\TKQClock\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Document\LT Web\TKQClock\TKQClock\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Document\LT Web\TKQClock\TKQClock\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Document\LT Web\TKQClock\TKQClock\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Document\LT Web\TKQClock\TKQClock\bin\roslyn\System.AppContext.dll
+D:\Document\LT Web\TKQClock\TKQClock\bin\roslyn\System.Collections.Immutable.dll
+D:\Document\LT Web\TKQClock\TKQClock\bin\roslyn\System.Console.dll
+D:\Document\LT Web\TKQClock\TKQClock\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Document\LT Web\TKQClock\TKQClock\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Document\LT Web\TKQClock\TKQClock\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Document\LT Web\TKQClock\TKQClock\bin\roslyn\System.Globalization.Calendars.dll
+D:\Document\LT Web\TKQClock\TKQClock\bin\roslyn\System.IO.Compression.dll
+D:\Document\LT Web\TKQClock\TKQClock\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Document\LT Web\TKQClock\TKQClock\bin\roslyn\System.IO.FileSystem.dll
+D:\Document\LT Web\TKQClock\TKQClock\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Document\LT Web\TKQClock\TKQClock\bin\roslyn\System.Net.Http.dll
+D:\Document\LT Web\TKQClock\TKQClock\bin\roslyn\System.Net.Sockets.dll
+D:\Document\LT Web\TKQClock\TKQClock\bin\roslyn\System.Reflection.Metadata.dll
+D:\Document\LT Web\TKQClock\TKQClock\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Document\LT Web\TKQClock\TKQClock\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Document\LT Web\TKQClock\TKQClock\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Document\LT Web\TKQClock\TKQClock\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Document\LT Web\TKQClock\TKQClock\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Document\LT Web\TKQClock\TKQClock\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Document\LT Web\TKQClock\TKQClock\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Document\LT Web\TKQClock\TKQClock\bin\roslyn\System.ValueTuple.dll
+D:\Document\LT Web\TKQClock\TKQClock\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Document\LT Web\TKQClock\TKQClock\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Document\LT Web\TKQClock\TKQClock\bin\roslyn\System.Xml.XPath.dll
+D:\Document\LT Web\TKQClock\TKQClock\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Document\LT Web\TKQClock\TKQClock\bin\roslyn\vbc.exe
+D:\Document\LT Web\TKQClock\TKQClock\bin\roslyn\vbc.exe.config
+D:\Document\LT Web\TKQClock\TKQClock\bin\roslyn\vbc.rsp
+D:\Document\LT Web\TKQClock\TKQClock\bin\roslyn\VBCSCompiler.exe
+D:\Document\LT Web\TKQClock\TKQClock\bin\roslyn\VBCSCompiler.exe.config
+D:\Document\LT Web\TKQClock\TKQClock\bin\Antlr3.Runtime.dll
+D:\Document\LT Web\TKQClock\TKQClock\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Document\LT Web\TKQClock\TKQClock\bin\Microsoft.Web.Infrastructure.dll
+D:\Document\LT Web\TKQClock\TKQClock\bin\Newtonsoft.Json.dll
+D:\Document\LT Web\TKQClock\TKQClock\bin\PagedList.dll
+D:\Document\LT Web\TKQClock\TKQClock\bin\PagedList.Mvc.dll
+D:\Document\LT Web\TKQClock\TKQClock\bin\System.Web.Helpers.dll
+D:\Document\LT Web\TKQClock\TKQClock\bin\System.Web.Mvc.dll
+D:\Document\LT Web\TKQClock\TKQClock\bin\System.Web.Optimization.dll
+D:\Document\LT Web\TKQClock\TKQClock\bin\System.Web.Razor.dll
+D:\Document\LT Web\TKQClock\TKQClock\bin\System.Web.WebPages.Deployment.dll
+D:\Document\LT Web\TKQClock\TKQClock\bin\System.Web.WebPages.dll
+D:\Document\LT Web\TKQClock\TKQClock\bin\System.Web.WebPages.Razor.dll
+D:\Document\LT Web\TKQClock\TKQClock\bin\WebGrease.dll
+D:\Document\LT Web\TKQClock\TKQClock\bin\PagedList.xml
+D:\Document\LT Web\TKQClock\TKQClock\bin\PagedList.Mvc.xml
+D:\Document\LT Web\TKQClock\TKQClock\bin\System.Web.Helpers.xml
+D:\Document\LT Web\TKQClock\TKQClock\bin\System.Web.Mvc.xml
+D:\Document\LT Web\TKQClock\TKQClock\bin\System.Web.Optimization.xml
+D:\Document\LT Web\TKQClock\TKQClock\bin\System.Web.Razor.xml
+D:\Document\LT Web\TKQClock\TKQClock\bin\System.Web.WebPages.xml
+D:\Document\LT Web\TKQClock\TKQClock\bin\System.Web.WebPages.Deployment.xml
+D:\Document\LT Web\TKQClock\TKQClock\bin\System.Web.WebPages.Razor.xml
+D:\Document\LT Web\TKQClock\TKQClock\bin\Newtonsoft.Json.xml
+D:\Document\LT Web\TKQClock\TKQClock\bin\Antlr3.Runtime.pdb
+D:\Document\LT Web\TKQClock\TKQClock\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Document\LT Web\TKQClock\TKQClock\obj\Debug\TKQClock.csproj.AssemblyReference.cache
+D:\Document\LT Web\TKQClock\TKQClock\obj\Debug\TKQClock.csproj.CoreCompileInputs.cache
+D:\Document\LT Web\TKQClock\TKQClock\obj\Debug\TKQClock.csproj.CopyComplete
+D:\Document\LT Web\TKQClock\TKQClock\obj\Debug\TKQClock.dll
+D:\Document\LT Web\TKQClock\TKQClock\obj\Debug\TKQClock.pdb
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\TKQClock.dll.config
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\TKQClock.dll
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\TKQClock.pdb
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\csc.exe
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\csc.exe.config
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\csc.rsp
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\csi.exe
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\csi.exe.config
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\csi.rsp
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\System.AppContext.dll
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\System.Console.dll
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\System.IO.Compression.dll
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\System.Net.Http.dll
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\System.Net.Sockets.dll
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\System.ValueTuple.dll
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\System.Xml.XPath.dll
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\vbc.exe
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\vbc.exe.config
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\vbc.rsp
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\VBCSCompiler.exe
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\Antlr3.Runtime.dll
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\Newtonsoft.Json.dll
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\PagedList.dll
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\PagedList.Mvc.dll
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\System.Web.Helpers.dll
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\System.Web.Mvc.dll
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\System.Web.Optimization.dll
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\System.Web.Razor.dll
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\System.Web.WebPages.Deployment.dll
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\System.Web.WebPages.dll
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\System.Web.WebPages.Razor.dll
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\WebGrease.dll
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\PagedList.xml
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\PagedList.Mvc.xml
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\System.Web.Helpers.xml
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\System.Web.Mvc.xml
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\System.Web.Optimization.xml
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\System.Web.Razor.xml
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\System.Web.WebPages.xml
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\System.Web.WebPages.Deployment.xml
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\System.Web.WebPages.Razor.xml
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\Newtonsoft.Json.xml
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\Antlr3.Runtime.pdb
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\obj\Debug\TKQClock.csproj.AssemblyReference.cache
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\obj\Debug\TKQClock.csproj.CoreCompileInputs.cache
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\obj\Debug\TKQClock.csproj.CopyComplete
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\obj\Debug\TKQClock.dll
+C:\Users\KHOI\source\repos\04-04-2023\quang bao\TKQClock04-3-2023\TKQClock\TKQClock\obj\Debug\TKQClock.pdb
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\TKQClock.dll.config
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\TKQClock.dll
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\TKQClock.pdb
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\csc.exe
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\csc.exe.config
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\csc.rsp
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\csi.exe
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\csi.exe.config
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\csi.rsp
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\System.AppContext.dll
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\System.Collections.Immutable.dll
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\System.Console.dll
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\System.Globalization.Calendars.dll
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\System.IO.Compression.dll
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\System.IO.FileSystem.dll
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\System.Net.Http.dll
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\System.Net.Sockets.dll
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\System.Reflection.Metadata.dll
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\System.ValueTuple.dll
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\System.Xml.XPath.dll
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\vbc.exe
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\vbc.exe.config
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\vbc.rsp
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\VBCSCompiler.exe
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\roslyn\VBCSCompiler.exe.config
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\Antlr3.Runtime.dll
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\Microsoft.Web.Infrastructure.dll
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\Newtonsoft.Json.dll
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\PagedList.dll
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\PagedList.Mvc.dll
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\System.Web.Helpers.dll
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\System.Web.Mvc.dll
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\System.Web.Optimization.dll
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\System.Web.Razor.dll
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\System.Web.WebPages.Deployment.dll
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\System.Web.WebPages.dll
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\System.Web.WebPages.Razor.dll
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\WebGrease.dll
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\PagedList.xml
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\PagedList.Mvc.xml
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\System.Web.Helpers.xml
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\System.Web.Mvc.xml
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\System.Web.Optimization.xml
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\System.Web.Razor.xml
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\System.Web.WebPages.xml
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\System.Web.WebPages.Deployment.xml
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\System.Web.WebPages.Razor.xml
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\Newtonsoft.Json.xml
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\Antlr3.Runtime.pdb
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\obj\Debug\TKQClock.csproj.AssemblyReference.cache
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\obj\Debug\TKQClock.csproj.CoreCompileInputs.cache
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\obj\Debug\TKQClock.csproj.CopyComplete
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\obj\Debug\TKQClock.dll
+D:\Document\LT Web\TKQClock04-3-2023\TKQClock\TKQClock\obj\Debug\TKQClock.pdb

@@ -1,0 +1,88 @@
+﻿@using TKQClock.Models;
+@using PagedList.Mvc;
+@model PagedList.PagedList<TKQClock.Models.TinTuc>
+
+@helper Truncate(string input, int length)
+{
+    if (input.Length < length)
+    {
+        @input
+    }
+    else
+    {
+        @input.Substring(0, length) <text>.... </text>
+    }
+}
+@{
+    ViewBag.Title = "TKQClock";
+    Layout = "~/Views/Shared/_LayoutQL.cshtml";
+}
+
+<h2>TinTuc</h2>
+
+<p>
+    <div id="btn-updt" class="color-a bc-green rs-form btn-pri-demo c-whi form__submit-small"  style="color: #fff; text-decoration: none">
+        @Html.ActionLink("Create", "ThemTinTuc")
+        </div>
+</p>
+<table class="table">
+    <tr>
+        <th style="width:75px"> MaTT</th>
+        <th style="width:50px"> Img</th>
+        <th style="width:300px">TieuDe</th>
+        <th style="width:300px"> NoiDung</th>
+        <th style="width:300px"> NgayTao</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaTT)
+            </td>
+            <td>
+                <img src="@Url.Content("~/hinhTinTuc/" + item.Img)" width="50   " height="50" />
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TieuDe)
+            </td>
+            <td>
+                @Truncate(item.NoiDung, 50)
+                @Html.ActionLink("Xem Thêm", "ChiTiet_News", new { id = item.MaTT })
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NgayTao)
+            </td>
+            <td>
+
+                <div id="btn-updt" class="color-a bc-green rs-form btn-pri-demo c-whi form__submit-small">
+                    <a href="@Url.Action("ThemTinTuc", "admin", new { id = item.MaTT ,  strURL=Request.Url.ToString()  })" style="color: #fff; text-decoration: none">
+                        Thêm
+                    </a>
+                </div>|
+
+                <div id="btn-del" class="color-a bc-red rs-form btn-pri-demo c-whi form__submit-small">
+                    <a href="@Url.Action("Delete_News", "admin", new { id = item.MaTT ,  strURL=Request.Url.ToString()  })" style="color: #fff; text-decoration: none">
+                        Xóa
+                    </a>
+                </div>|
+
+                <div id="btn-del" class="color-a bc-red rs-form btn-pri-demo c-whi form__submit-small">
+                    <a href="@Url.Action("Edit_News", "admin", new { id = item.MaTT ,  strURL=Request.Url.ToString()  })" style="color: #fff; text-decoration: none">
+                        Sửa
+                    </a>
+            </td>
+        </tr>
+    }
+
+</table>
+@* tao lien ket trang*@
+<div style="display:block">Trang@(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)/@Model.PageCount</div>
+<div class="MenuTrang">
+    @Html.PagedListPager(Model, page => Url.Action("TinTuc", new { page = page }))
+</div>
+<style>
+    .MenuTrang li {
+        display: inline;
+    }
+</style>

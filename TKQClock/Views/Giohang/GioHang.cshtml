@@ -1,0 +1,51 @@
+﻿@model IEnumerable<TKQClock.Models.Giohang>
+@{
+    ViewBag.Title = "TKQClock";
+    Layout = "~/Views/Shared/_LayoutShoppingCart.cshtml";
+}
+
+<div id="content-cart" style="margin-top: 9em;">
+    <div class="cart">
+        <div class="cart-column">
+            <label class="product-img"></label>
+            <label class="product-detail">Chi tiết Sản Phẩm</label>
+            <label class="product-price">Giá</label>
+            <label class="product-quantity">Số Lượng</label>
+            <label class="product-remove"></label>
+            <label class="product-money">Thành Tiền</label>
+        </div>
+
+        @foreach (var item in Model)
+        {
+            <div class="product">
+                <div class="product-img">
+                    <img src="~/hinhsp/@item.sImgUrl">
+                </div>
+                <div class="product-detail">
+                    <div class="product-title">@item.sTenDH</div>
+                    <button class=" btn-pri c-whi form__submit-small m-btn-loading disabled"><a style="text-decoration: none; color: #fff; margin-bottom: 4px;" href="@Url.Action("Chitietdongho","ClockStore", new {id = item.iMaDH})">Chi Tiết</a></button>
+                </div>
+                @using (Html.BeginForm("Capnhatgiohang", "Giohang", new { id = item.iMaDH }))
+                {
+                    <div class="pb8 product-price"><span class=" total-price">@String.Format("{0:0,0}", item.dGiaban) USD</span></div>
+                    <div class="product-number pb8">
+                        <input type="number" value="@item.iSoLuong" name="txtSoluong" min="1">
+                    </div>
+                    <div class="product-remove">
+                        <button class=" btn-pri c-whi form__submit-small m-btn-loading disabled"><a style="text-decoration: none; color: #fff; margin-bottom: 4px;">Update</a></button>
+                        <button class=" btn-pri c-whi form__submit-small m-btn-loading disabled"><a style="text-decoration: none; color: #fff; margin-bottom: 4px;" href="@Url.Action("Xoagiohang","Giohang", new {id = item.iMaDH})">Xóa</a></button>
+                    </div>
+                    <div class="pb8 product-price money"><span class=" total-price">@String.Format("{0:0,0}", @item.dThanhTien) USD</span></div>
+                }
+            </div>
+        }
+        <div class="totals">
+            <div class="mt16 totals-item">
+                <div class="totals-value" id="productprice"><span class="total-price">Tổng Tiền:  @String.Format("{0:0,0}", ViewBag.Tongtien) USD</span></div>
+            </div>
+        </div>
+        <button class="rs-form mt-16 btn-pri c-whi form__submit-small m-btn-loading disabled"><a style="text-decoration: none; color: #fff; margin-bottom: 4px;" href="@Url.Action("DatHang","Giohang")">Thanh Toán</a></button>
+        <button class="rs-form mt-16 btn-pri c-whi form__submit-small m-btn-loading disabled"><a style="text-decoration: none; color: #fff; margin-bottom: 4px;" href="@Url.Action("Xoatatcagiohang","Giohang")">Xóa Tất Cả</a></button>
+
+    </div>
+

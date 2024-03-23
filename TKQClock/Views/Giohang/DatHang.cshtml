@@ -1,0 +1,78 @@
+﻿@using TKQClock.Models
+@model List<Giohang>
+@{
+    ViewBag.Title = "TKQClock";
+    Layout = "~/Views/Shared/_LayoutSummary.cshtml";
+}
+
+<div id="Main" class="dathang-section" style="padding-top: 150px">
+    <div class="col col-half input-data pb6">
+        <h4 class="content">Thông tin người nhận</h4>
+        <div class="col input-name col-30 ">
+            <p class="data-label distance">Họ Tên</p>
+            <p class="data-label distance">Số Điện Thoại</p>
+            <p class="data-label distance">Địa Chỉ</p>
+            <p class="data-label distance">Ngày Đặt</p>
+            <p class="data-label distance">Ngày Giao</p>
+        </div>
+        <style>
+            .huy{
+                text-decoration: none;
+                color:#fff;
+            }
+        </style>
+        @{
+            KhachHang kh = (KhachHang)Session["Taikhoan"];
+        }
+        @using (Html.BeginForm())
+        {
+            @Html.ValidationSummary(true)
+            <div class="col input-text col-70">
+                <p class="p6">@kh.TenKH</p><hr>
+                <p class="p6">@kh.SDT</p><hr>
+                <p class="p6">@kh.DiaChi</p><hr>
+                <p class="p6">@DateTime.Now.ToShortDateString()</p><hr>
+                <input type="date" name="Ngaygiao" onclick="(this.type='date')" placeholder="Ngày Giao" required="" class="distance input"> <hr>
+            </div>
+            <button class="mt100 rs-form btn-pri c-whi form__submit-small m-btn-loading disabled">Đặt Hàng</button>
+            <button class="mt100 rs-form btn-pri c-whi form__submit-small m-btn-loading disabled">
+                <a href="@Url.Action("IndexAfter", "User")" style="color: #fff; text-decoration: none">
+                    Trở về
+                </a>
+            </button>
+        }
+
+    </div>
+    <div class="col col-half summary">
+        <h4 class="content">Tóm Tắt</h4>
+        <div class="content-summary">
+            <div class="col-half col summary-name">
+                <p class="summary-label distance" style="display: block;">Số lượng đơn hàng: @ViewBag.Tongsoluong</p>
+            </div>
+            <div class="col-half col summary-output" style="display: block;">
+                <p class="summary-view distance">Tổng tiền: @String.Format("{0:0,0}", ViewBag.Tongtien) USD</p>
+            </div>
+        </div>
+        <div style="margin-top:24px" id="paypal-button-container"></div>
+    </div>
+</div>
+<script src="https://www.paypal.com/sdk/js?client-id=AXfo20eU_clZPj7GcFiRR6F_igCFg-VMildBtPvdYR7TVAkenyJ_siDeiDJ2plf6clAno_kDvx9IDIod"></script>
+<script>
+    paypal.Buttons({
+        createOrder: function (data, actions) {
+            return actions.order.create({
+                purchase_units: [{
+                    amount: {
+                        value: @ViewBag.Tongtien
+                    }
+                }]
+            });
+        },
+        onApprove: function (data, actions) {
+            return actions.order.capture().then(function (details) {
+                alert('Đơn hàng đã được thanh toán thanh công. Cảm ơn bạn đã mua hàng của chúng tôi. Chúng tôi sẽ cố gắng gửi hàng cho bạn trong thời gian mà bạn yêu cầu. Xin cảm ơn!!!');
+            });
+        }
+    }).render('#paypal-button-container');
+</script>
+

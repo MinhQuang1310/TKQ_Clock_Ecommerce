@@ -1,0 +1,64 @@
+﻿@using TKQClock.Models;
+@using PagedList.Mvc;
+@model PagedList.PagedList<TKQClock.Models.DonDatHang>
+@{
+    ViewBag.Title = "DonDatHang";
+    Layout = "~/Views/Shared/_LayoutQL.cshtml";
+}
+
+<h2>QUẢN LÝ ĐƠN ĐẶT HÀNG </h2>
+
+<table class="table">
+    <tr>
+        <th style="width:75px">MaKH</th>
+        <th style="width:300px">NgayDat</th>
+        <th style="width:300px">NgayGiao</th>
+        <th style="width:300px">Tinhtranggiaohang</th>
+        <th style="width:250px"> DaThanhToan</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaKH)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NgayDat)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NgayGiao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tinhtranggiaohang)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DaThanhToan)
+            </td>
+            <td>
+
+                <div id="btn-updt" class="color-a bc-green rs-form btn-pri-demo c-whi form__submit-small">
+                    <a href="@Url.Action("SuaDonDatHang", "admin", new { id = item.MaDDH ,  strURL=Request.Url.ToString()  })" style="color: #fff; text-decoration: none">
+                        Sửa
+                    </a>
+                </div>|
+                <div id="btn-del" class="color-a bc-red rs-form btn-pri-demo c-whi form__submit-small">
+                    <a href="@Url.Action("xoaDDH", "admin", new { id = item.MaDDH ,  strURL=Request.Url.ToString()  })" style="color: #fff; text-decoration: none">
+                        Xóa
+                    </a>
+                </div>
+            </td>
+        </tr>
+    }
+
+</table>
+@* tao lien ket trang*@
+<div style="display:block">Trang@(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)/@Model.PageCount;</div>
+<div class="MenuTrang">
+    @Html.PagedListPager(Model, page => Url.Action("DonDatHang", new { page = page }))
+</div>
+<style>
+    .MenuTrang li {
+        display: inline;
+    }
+</style>

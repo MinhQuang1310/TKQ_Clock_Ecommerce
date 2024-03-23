@@ -1,0 +1,40 @@
+﻿
+
+@{
+    ViewBag.Title = "TKQClock";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+
+<<div id="slider">
+    <div class="text-content">
+        <div class="img-sld">
+            <a href="@Url.Action("Sanpham", "User")">
+                <img src="~/images/nCasio-EQB-600D-1A2DR-Big-Eye.png" alt="" style="height:944px">
+            </a>
+        </div>
+    </div>
+</div>
+
+<div id="content">
+    <style>
+        .member-img {
+            height: 900px !important;
+        }
+    </style>
+    <div id="band" class="content-introduce">
+        <div class="row introduce-list">
+            <div class="col col-half">
+                <a href="@Url.Action("Chitietdongho", "User", new { id = 11})">
+                    <img src="~/images/post_RA-AR0004S.jpg" alt="" class="member-img">
+                </a>
+            </div>
+            <div class="col col-half">
+                <a href="@Url.Action("Chitietdongho", "User", new { id = 7})">
+                    <img src="~/images/post_RA-NB0105S.jpg" alt="" class="member-img">
+                </a>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+</div>

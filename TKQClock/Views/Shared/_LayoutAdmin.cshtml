@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/admin.css" rel="stylesheet" />
+    <link href="~/Content/ClockStoreCss/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/ClockStoreCss/shop-homepage.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="~/images/LOGO1.png" type="image/x-icon" />
+</head>
+<body style="padding-top: 0px">
+    <style>
+        center {
+            display: none;
+        }
+    </style>
+    <div id="nav-admin" style="z-index: 10 !important;">
+        <div class="nav-admin-section">
+            <ul id="admin-section">
+                <li> @Html.ActionLink("Tài khoản", "Dangnhap", "admin")</li>
+            </ul>
+        </div>
+    </div>
+    <div class="container" style="padding-top:55px">
+        @RenderBody()
+    </div>
+
+</body>
+</html>

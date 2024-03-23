@@ -1,0 +1,147 @@
+﻿@model TKQClock.Models.DongHo
+
+@{
+    ViewBag.Title = "TKQClock";
+    Layout = "~/Views/Shared/_LayoutQL.cshtml";
+}
+
+<h2>XÁC NHẬN THÔNG TIN CẦN XÓA</h2>
+
+<h3>BẠN QUYẾT ĐỊNH XÓA KHỎI DANH SÁCH ĐỒNG HỒ</h3>
+<div>
+    <h4>DongHo</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Tên Đồng Hồ:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TenDH)
+        </dd>
+
+        <dt>
+            Ảnh:
+        </dt>
+
+        <dd>
+            <img src="@Url.Content("~/hinhsp/"+ Model.ImgUrl)" width="200px" />
+        </dd>
+
+        <dt>
+            Mô tả ngắn:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MoTaNgan)
+        </dd>
+
+        <dt>
+            Số lượng tồn:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SoLuongTon)
+        </dd>
+
+        <dt>
+            Ngày cập nhật:
+        </dt>
+
+        <dd>
+            @String.Format("{0:dd/MM/yyyy}", Model.NgayCapNhat)
+        </dd>
+
+        <dt>
+            Giá bán:
+        </dt>
+
+        <dd>
+            @String.Format("{0:0:0}", Model.GiaBan) VNĐ
+        </dd>
+
+        <dt>
+            Hãng đồng hồ:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HangDongHo.TenHang)
+        </dd>
+
+        <dt>
+            Kiểu dáng:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LoaiDongHo.TenLoai)
+        </dd>
+
+        <dt>
+            Mô tả chi tiết:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NoiDung)
+        </dd>
+
+        <dt>
+            Chất liệu:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ChatLieu)
+        </dd>
+
+        <dt>
+            Dây đai:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Dai)
+        </dd>
+
+        <dt>
+            Đường kính:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.KichThuoc)
+        </dd>
+
+        <dt>
+            Màu sắc:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Mausac)
+        </dd>
+
+        <dt>
+            Màu động cơ:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Maubanhxe)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Xóa" class="btn btn-default" /> |
+            <style>
+            .w6 {
+                width: 6rem !important;
+            }
+            </style>
+            <div id="btn-del" class="color-a w6 rs-form btn-pri-demo c-whi form__submit-small">
+                <a href="@Url.Action("Dongho", "admin")" style="color: #fff; text-decoration: none">
+                    Trở về
+                </a>
+            </div>
+        </div>
+    }
+</div>

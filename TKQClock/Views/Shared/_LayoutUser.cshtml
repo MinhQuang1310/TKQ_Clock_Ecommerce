@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="~/Content/ClockStoreCss/detail.css">
+    <link href="~/Content/fondendfix.css" rel="stylesheet" />
+    @*    <link rel="stylesheet" href="~/Content/ClockStoreCss/ThemeCart.css">*@
+    @*<link rel="stylesheet" href="~/Content/ClockStoreCss/responsive.css">*@
+    <link href="~/Content/ClockStoreCss/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/ClockStoreCss/shop-homepage.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/Content/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="~/Content/ClockStoreCss/tintuc.css" />
+    <link rel="shortcut icon" href="~/images/LOGO1.png" type="image/x-icon" />
+
+</head>
+<body>
+    <style>
+        center {
+            display: none;
+        }
+    </style>
+    <div class="main">
+        <div id="header" style=" z-index: 10 !important; background-color: #fff !important">
+            <div class="sub-head">
+                <div class="col-30 text-head">
+                    @Html.ActionLink("TKQClock", "IndexAfter", "User")
+                </div>
+                <div class="col-30 btn-search-head">
+                    <input type="text" class="searh-cl">
+                    <button class="btn-head-search">
+                        <i class="icon-head ti-search"></i>
+                    </button>
+                </div>
+                <div class="col-30 btn-log">
+                    <ul id="nav-log">
+
+                        <li>
+                            <a href="#">Tài khoản<i class="ti-user"></i></a>
+                            <ul class="subnav-log">
+                                <li>@Html.ActionLink("Thông tin", "IfCustomer", "User")</li>
+                                <li>@Html.ActionLink("Đăng xuất", "IndexBefore", "ClockStore")<i class="ti-shift-right"></i></li>
+                            </ul>
+                        </li>
+                        <li>@Html.Action("GiohangPartial", "Giohang") <i class="icon-shopping ti-shopping-cart"></i></li>
+                    </ul>
+                </div>
+            </div>
+            <ul id="nav">
+                <li>
+                    @Html.ActionLink("Trang chủ", "IndexAfter", "User")
+                </li>
+                <li>
+                    @Html.ActionLink("Sản phẩm", "Sanpham", "User")
+                </li>
+                <li>
+                    @Html.ActionLink("Tin Tức", "News", "User")
+                </li>
+                <li>
+                    <a href="#">Hãng<i class="ti-angle-down"></i> </a>
+                    <ul class="subnav">
+                        @Html.Action("Hang", "User")
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Loại<i class="ti-angle-down"></i></a>
+                    <ul class="subnav">
+                        @Html.Action("Loai", "User")
+                    </ul>
+                </li>
+                <li><a href="#map">Địa chỉ<i class="icon-cont ti-location-pin"></i></a></li>
+
+                <li><a href="#contact">Hỗ trợ <i class="icon-help ti-headphone-alt"></i></a></li>
+            </ul>
+
+            <!-- begin search button -->
+        </div>
+    </div>
+    <div>
+        @RenderBody()
+    </div>
+
+    <div class="map-section">
+        <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.4205948966046!2d106.78291401534769!3d10.855580060694717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175276e7ea103df%3A0xb6cf10bb7d719327!2zSHV0ZWNoIEtodSBFIC0gVHJ1bmcgVMOibSDEkMOgbyBU4bqhbyBOaMOibiBM4buxYyBDaOG6pXQgTMaw4bujbmcgQ2Fv!5e0!3m2!1svi!2s!4v1677309859870!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div id="footer">
+        <div class="social-list">
+            <a href=""><i class="ti-facebook"></i></a>
+            <a href=""><i class="ti-instagram"></i></a>
+            <a href=""><i class="ti-youtube"></i></a>
+            <a href=""><i class="ti-pinterest"></i></a>
+            <a href=""><i class="ti-twitter"></i></a>
+            <a href=""><i class="ti-linkedin"></i></a>
+        </div>
+        <p class="copyright">Copyright © 2023  TKQ Team. All rights reserved.</p>
+    </div>
+    </div>
+
+</body>
+</html>
+
+
+

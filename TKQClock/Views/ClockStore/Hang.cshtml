@@ -1,0 +1,9 @@
+﻿@model IEnumerable<TKQClock.Models.HangDongHo>
+<div class="list-group">
+    @foreach (var item in Model)
+    {
+        <a href="@Url.Action("ClockTheoHang", "ClockStore", new { id = item.MaHDH})" class="list-group-item">
+            @item.TenHang
+        </a>
+    }
+</div>

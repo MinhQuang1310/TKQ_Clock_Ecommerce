@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewBag.Title = "TKQClock";
+    Layout = "~/Views/Shared/_LayoutTinTuc.cshtml";
+}
+<style>
+    .mb16{
+        margin-bottom: 16px !important;
+    }
+</style>
+<div class="container mb16">
+    <div id="content-detail">
+        <div class="name">
+            <h2 class="mt-48 mr-16 name">@Model.TieuDe</h2>
+            <hr>
+        </div>
+        <div class="content">
+            <div class="mt-48 content-left pull-left left-content">
+                <img src="~/hinhTinTuc/@Model.Img" alt="@Model.TieuDe" class="item-img1" style="width: 586px; height: 390px; display: flex; justify-content: end; align-items: center; padding-right: 36px;">
+            </div>
+            <div class="contetn-right right-content">
+                <p class="item-detail" style=" padding-left: 15%; padding-top: 3rem; font-size:19px !important">@Model.NoiDung</p>
+            </div>
+        </div>
+        <div id="btn-del" class="color-a w6 rs-form btn-pri-demo c-whi form__submit-small" style="float:right; width:6rem !important">
+            <a href="@Url.Action("Index", "TinTuc")" style="color: #fff; text-decoration: none">
+                Trở về
+            </a>
+        </div>
+    </div>
+</div>
+
+

@@ -1,0 +1,34 @@
+﻿
+@{
+    ViewBag.Title = "TKQClock";
+    Layout = "~/Views/Shared/_LayoutRegister.cshtml";
+}
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+    <div class="content-signup">
+        <div class="sec-80">
+            <div class="form__wrap con">
+                <h2 class="sec-title form__title">Tạo tài khoản</h2>
+                <form action="" id="mona-register-popup">
+                    <div class="form">
+                        <input type="text" name="register_name" required="" class="rs-form form__inp" placeholder="Họ và tên">
+                        <input type="email" name="register_email" required="" class="rs-form form__inp" placeholder="Email">
+                        <input type="tel" name="register_phone" minlength="10" maxlength="10" required="" class="rs-form form__inp" placeholder="Số điện thoại">
+                        <input type="date" name="register_birthday" onclick="(this.type='date')" required="" class="rs-form form__inp form__date" placeholder="Ngày sinh">
+                        <input type="text" name="register_sex" required="" class="rs-form form__inp" placeholder="Giới tính">
+                        <input type="text" name="register_address" required="" class="rs-form form__inp" placeholder="Địa chỉ">
+                        <input type="password" name="register_pass" required="" class="rs-form form__inp" placeholder="Mật khẩu">
+                        <input type="password" name="register_repass" required="" class="rs-form form__inp" placeholder="Xác nhận mật khẩu">
+                        <div class="form__bot form__mb m-cus-btn-f-register">
+                            <button class="rs-form btn-pri c-whi form__submit-small m-btn-loading disabled">Tạo</button>
+                        </div>
+                        <span class="dp-block form__bot m-cus-text-regis">Nếu sdt hoặc email của bạn báo đã tồn tại, bấm <a href="login.html">@Html.ActionLink("vào đây", "Dangnhap", "User")</a> và login với sdt hoặc email đó với một mật khẩu bất kì để kích hoạt tài khoản hoặc liên hệ với bộ phận cskh của TKQ Clock để được hỗ trợ.</span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+}
+
+

@@ -1,0 +1,43 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Dangnhap</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="~/Content/ClockStoreCss/signup.css">
+    <link rel="stylesheet" href="~/Content/ClockStoreCss/responsive.css">
+    <link rel="stylesheet" href="~/Content/themify-icons/themify-icons.css">
+</head>
+<body>
+    <div>
+        @using (Html.BeginForm())
+        {
+            @Html.ValidationSummary(true)
+            <div class="content-register">
+                <div class="sec-80">
+                    <div class="form__wrap con">
+                        <h2 class="sec-title form__title">Đăng nhập</h2>
+                        <form action="" id="mona-login-form">
+                            <div class="form">
+                                <span class="blank" style="margin-top: 16px;"></span>
+                                <input type="text" name="user_name" required="" class="rs-form form__inp" placeholder="Tên đăng nhập">
+                                <input type="password" name="user_pass" required="" class="rs-form form__inp" placeholder="Mật khẩu">
+                                <div class="fl-wrap aln-ct form__bot form__mb">
+                                    <button class="rs-form btn-pri c-whi form__submit-small m-btn-loading">Đăng nhập</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</body>
+</html>

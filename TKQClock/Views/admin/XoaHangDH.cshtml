@@ -1,0 +1,42 @@
+﻿@model TKQClock.Models.HangDongHo
+
+@{
+    ViewBag.Title = "TKQClock";
+    Layout = "~/Views/Shared/_LayoutQL.cshtml";
+}
+
+<h2>XoaHangDH</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>HangDongHo</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Tên Hãng:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TenHang)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+<div class="form-actions no-color">
+    <input type="submit" value="Delete" class="btn btn-default" /> |
+    <style>
+        .w6 {
+            width: 6rem !important;
+        }
+    </style>
+    <div id="btn-del" class="color-a w6 rs-form btn-pri-demo c-whi form__submit-small">
+        <a href="@Url.Action("HangDH", "admin")" style="color: #fff; text-decoration: none">
+            Trở về
+        </a>
+    </div>
+</div>
+    }
+</div>

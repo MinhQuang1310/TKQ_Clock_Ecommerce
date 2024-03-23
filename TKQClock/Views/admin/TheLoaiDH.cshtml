@@ -1,0 +1,49 @@
+﻿@model IEnumerable<TKQClock.Models.LoaiDongHo>
+
+@{
+    ViewBag.Title = "TKQClock";
+    Layout = "~/Views/Shared/_LayoutQL.cshtml";
+}
+
+<h2>Thể loại đồng hồ</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            Mã loại:
+        </th>
+        <th>
+           Kiểu dáng:
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.MaLoai)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TenLoai)
+        </td>
+        <td>
+            <div id="btn-updt" class="color-a bc-green rs-form btn-pri-demo c-whi form__submit-small">
+                @Html.ActionLink("Sửa", "SuaLDH", new { id = item.MaLoai }) 
+            </div>|<div id="btn-del" class="color-a bc-red rs-form btn-pri-demo c-whi form__submit-small">
+                @Html.ActionLink("Xóa", "XoaTLDH", new { id = item.MaLoai })
+            </div>  
+        </td>
+    </tr>
+}
+
+</table>
+<div id="btn-add" class="color-a bc-blue rs-form btn-pri-demo c-whi form__submit-small" style="margin-bottom: 35px">
+    <style>
+        .add {
+            text-decoration: none !important;
+            color: #fff !important;
+        }
+    </style>
+    @Html.ActionLink("Thêm mới", "ThemTL", new { @class = "add" })
+</div>
+

@@ -1,0 +1,51 @@
+﻿@model IEnumerable<TKQClock.Models.HangDongHo>
+
+@{
+    ViewBag.Title = "TKQClock";
+    Layout = "~/Views/Shared/_LayoutQL.cshtml";
+}
+
+<h2>HangDH</h2>
+
+
+<table class="table">
+    <tr>
+        <th>Mã Hãng</th>
+        <th>Hãng Đồng Hồ:</th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.MaHDH)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TenHang)
+        </td>
+        <td>
+            <div id="btn-updt" class="color-a bc-green rs-form btn-pri-demo c-whi form__submit-small">
+                <a href="@Url.Action("SuaHDH", "admin", new { id = item.MaHDH ,  strURL=Request.Url.ToString()  })" style="color: #fff; text-decoration: none">
+                    Sửa
+                </a>
+            </div>|
+            <div id="btn-del" class="color-a bc-red rs-form btn-pri-demo c-whi form__submit-small">
+                <a href="@Url.Action("XoaHangDH", "admin", new { id = item.MaHDH ,  strURL=Request.Url.ToString()  })" style="color: #fff; text-decoration: none">
+                    Xóa
+                </a>
+            </div>
+        </td>
+    </tr>
+}
+
+</table>
+
+<div id="btn-add" class="color-a bc-blue rs-form btn-pri-demo c-whi form__submit-small" style="margin-bottom: 35px">
+    <style>
+        .add {
+            text-decoration: none !important;
+            color: #fff !important;
+        }
+    </style>
+    @Html.ActionLink("Thêm mới", "ThemHang", "admin", new{ @class = "add" })
+</div>

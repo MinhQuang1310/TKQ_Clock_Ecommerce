@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="~/Content/ClockStoreCss/signup.css">
+    <link rel="stylesheet" href="~/Content/ClockStoreCss/responsive.css">
+    <link rel="shortcut icon" href="~/images/LOGO1.png" type="image/x-icon" />
+    <link rel="stylesheet" href="~/Content/themify-icons/themify-icons.css">
+</head>
+<body>
+    <style>
+        center {
+            display: none;
+        }
+    </style>
+    <div id="header" style="z-index: 10 !important;">
+        <ul id="nav">
+            <li>@Html.ActionLink("Trang Chủ", "Index", "ClockStore")</li>
+            <li>
+                <a href="#footer">Hỗ Trợ</a>
+            </li>
+        </ul>
+        <div id="mobile-menu" class="mobile-menu-btn">
+            <i class="menu-icon ti-menu"></i>
+        </div>
+        <!-- begin search button -->
+    </div>
+    <div>
+        @RenderBody()
+    </div>
+    <div id="footer">
+        <div class="social-list">
+            <a href=""><i class="ti-facebook"></i></a>
+            <a href=""><i class="ti-instagram"></i></a>
+            <a href=""><i class="ti-youtube"></i></a>
+            <a href=""><i class="ti-pinterest"></i></a>
+            <a href=""><i class="ti-twitter"></i></a>
+            <a href=""><i class="ti-linkedin"></i></a>
+        </div>
+        <p class="copyright">Copyright © 2023  TKQ Team. All rights reserved.</p>
+    </div>
+</body>
+</html>

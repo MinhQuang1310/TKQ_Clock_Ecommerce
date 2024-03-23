@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewBag.Title = "TKQClock";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+<div class="container">
+    <div id="content-detail">
+        <div class="name">
+            <h2 class="mt-48 mr-16 name">@Model.TieuDe</h2>
+            <hr>
+        </div>
+        <div class="content">
+            <div class="mt-48 content-left pull-left left-content">
+                <img src="~/hinhTinTuc/@Model.Img" alt="@Model.TieuDe" class="item-img1" style="width: 586px; height: 390px; display: flex; justify-content: end; align-items: center; padding-right: 36px;">
+            </div>
+            <div class="contetn-right right-content">
+                <p class="item-detail" style=" padding-left: 15%; padding-top: 3rem; font-size:19px !important">@Model.NoiDung</p>
+
+
+            </div>
+        </div>
+
+    </div>
+</div>

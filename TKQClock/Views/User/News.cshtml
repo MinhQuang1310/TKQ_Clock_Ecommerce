@@ -1,0 +1,47 @@
+﻿@using TKQClock.Models
+@using PagedList.Mvc
+@model PagedList.PagedList<TinTuc>
+@{
+    ViewBag.Title = "TKQClock";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+
+
+
+<div style="padding-top:130px"
+     class="container news_section_container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="title-news"> Tin Tức</h1>
+        </div>
+    </div>
+    @foreach (var item in Model)
+    {
+        <div class="row row-item-new">
+            <div class="col-md-3">
+                <div class="img-box">
+                    <a href="@Url.Action("NewsDetail", "User", new { id = item.MaTT})">
+                        <img src="~/hinhTinTuc/@item.Img" alt="@item.TieuDe" />
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="content-box">
+                    <h3><a href="@Url.Action("NewsDetail", "User", new { id = item.MaTT})" title="@item.TieuDe">@item.TieuDe</a></h3>
+                    <div class="description-box">
+                        @item.NoiDung
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+    <div class="row">
+        <div class="col-6"></div>
+        <div class="col-6" style="text-align:right;">
+            @Html.PagedListPager(Model, page => Url.Action("News", new { page }))
+        </div>
+
+    </div>
+
+

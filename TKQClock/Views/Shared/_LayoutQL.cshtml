@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/demo1.css" rel="stylesheet" />
+    <link href="~/Content/admin.css" rel="stylesheet" />
+    <link href="~/Content/ClockStoreCss/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/ClockStoreCss/shop-homepage.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="~/images/LOGO1.png" type="image/x-icon" />
+    <script src="~/tinymce/js/tinymce/tinymce.min.js"></script>
+    <script>tinymce.init({ selector: 'textarea' });</script>
+</head>
+<body style="padding-top: 0px; z-index: 10 !important; " >
+    <style>
+        center {
+            display: none;
+        }
+    </style>
+    <div id="nav-admin">
+        <div class="nav-admin-section">
+            <ul id="admin-section">
+                <li>@Html.ActionLink("Đồng Hồ", "Dongho", "admin")</li>
+                <li>@Html.ActionLink("Tin Tức ", "TinTuc", "admin")</li>
+                <li>@Html.ActionLink("Đơn Đặt Hàng", "DonDatHang", "admin")</li>
+                <li>@Html.ActionLink("Hãng Đồng Hồ", "HangDH", "admin")</li>
+                <li>@Html.ActionLink("Loại Đồng Hồ", "TheLoaiDH", "admin")</li>
+                <li>@Html.ActionLink("Khách Hàng", "Khachhang", "admin")</li>
+            </ul>
+        </div>
+    </div>
+    <div class="container" style="padding-top:55px">
+        @RenderBody()
+    </div>
+</body>
+</html>

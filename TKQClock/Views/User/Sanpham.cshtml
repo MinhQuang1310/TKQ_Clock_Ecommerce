@@ -1,0 +1,43 @@
+﻿@using TKQClock.Models
+@using PagedList.Mvc
+@model PagedList.PagedList<DongHo>
+@{
+    ViewBag.Title = "TKQClock";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+<h2 class="section-heading text-white" style="display: flex; justify-content: center; padding-top: 21px; height: 80px; background-color: #19212b; margin: 126px -32px 16px -32px; ">Sản Phẩm</h2>
+<div id="products" class="tour-section">
+
+    @foreach (var clock in Model)
+    {
+        <div class="col-sm-4 col-lg-4 col-md-4">
+            <div class="thumbnail">
+                <a href="@Url.Action("Chitietdongho", "User", new { id = clock.MaDH})">
+                    <img alt="@clock.TenDH" src="~/hinhsp/@clock.ImgUrl " style="width: 586px; height: 390px; display: flex; justify-content: end; align-items: center; " />
+                    <div>
+                        <br />
+                        <h4 style="text-align:center">
+                            @clock.TenDH
+                        </h4>
+                        <p></p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    }
+</div>
+@* tao lien ket trang*@
+
+<div class="MenuTrang">
+    @Html.PagedListPager(Model, page => Url.Action("Sanpham", new { page = page }))
+</div>
+<style>
+    .pagination-container {
+        padding-left: 47%;
+    }
+
+    .MenuTrang li {
+        display: inline;
+    }
+</style>

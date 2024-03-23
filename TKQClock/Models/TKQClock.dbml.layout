@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 10.5" name="TKQClock">
+  <DataContextMoniker Name="/TKQClockDataContext" />
+  <nestedChildShapes>
+    <classShape Id="827eb178-6e92-45b6-95d4-07604333e766" absoluteBounds="6.75, 5.25, 2, 1.7708968098958326">
+      <DataClassMoniker Name="/TKQClockDataContext/TinTuc" />
+      <nestedChildShapes>
+        <elementListCompartment Id="31c08fa2-e09a-4784-b766-c461e4847858" absoluteBounds="6.765, 5.71, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8ade3135-1809-4f2f-bb75-442a46847b48" absoluteBounds="6.75, 8.25, 2, 1.9631982421875005">
+      <DataClassMoniker Name="/TKQClockDataContext/Admin" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d821dba6-1cda-445c-b42e-ee96b9890481" absoluteBounds="6.765, 8.71, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0e239826-108f-4419-b7a1-5ff207d73945" absoluteBounds="6.25, 2.5, 2, 1.578595377604167">
+      <DataClassMoniker Name="/TKQClockDataContext/CHITIETDONDATHANG" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cfb94827-3202-414f-bafa-ef8edfa3f084" absoluteBounds="6.265, 2.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="20a423e2-ccc8-430e-9fa3-675f868cb388" absoluteBounds="3.5, 6.375, 2, 1.9631982421875005">
+      <DataClassMoniker Name="/TKQClockDataContext/DonDatHang" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7f83af5e-7093-401f-9e28-5dd1ec97e0f0" absoluteBounds="3.515, 6.835, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c1250aab-79c0-42fa-98f4-0894a0d3e520" absoluteBounds="3.5, 1.5, 2, 3.6939111328124996">
+      <DataClassMoniker Name="/TKQClockDataContext/DongHo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8f2a9411-56b7-40b5-8cdd-c0e89eea4781" absoluteBounds="3.515, 1.96, 1.9700000000000002, 3.1339111328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="55e5573d-da4b-49e5-86bf-958c9ef2b683" absoluteBounds="0.75, 2.75, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/TKQClockDataContext/HangDongHo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5b38efeb-19d4-4a34-97bd-b9fb5739afc5" absoluteBounds="0.765, 3.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="28b2aa67-87b9-418f-bd3e-c23384c3be9b" absoluteBounds="0.75, 6.125, 2, 2.3478011067708344">
+      <DataClassMoniker Name="/TKQClockDataContext/KhachHang" />
+      <nestedChildShapes>
+        <elementListCompartment Id="be8cd47e-10c4-4e14-96da-8aaf230f27f4" absoluteBounds="0.765, 6.585, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c617b3f7-d88e-43d5-b724-d426b2b9315e" absoluteBounds="0.75, 0.75, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/TKQClockDataContext/LoaiDongHo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c2401daf-b21b-4273-9234-a3a2875f2e07" absoluteBounds="0.765, 1.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.5 : 7.63544840494792); (6.46875 : 7.63544840494792); (6.46875 : 4.07859537760417)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/TKQClockDataContext/DonDatHang/DonDatHang_CHITIETDONDATHANG" />
+      <nodes>
+        <classShapeMoniker Id="20a423e2-ccc8-430e-9fa3-675f868cb388" />
+        <classShapeMoniker Id="0e239826-108f-4419-b7a1-5ff207d73945" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 3.28929768880208); (6.25 : 3.28929768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/TKQClockDataContext/DongHo/DongHo_CHITIETDONDATHANG" />
+      <nodes>
+        <classShapeMoniker Id="c1250aab-79c0-42fa-98f4-0894a0d3e520" />
+        <classShapeMoniker Id="0e239826-108f-4419-b7a1-5ff207d73945" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 3.34699625651042); (3.5 : 3.34699625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/TKQClockDataContext/HangDongHo/HangDongHo_DongHo" />
+      <nodes>
+        <classShapeMoniker Id="55e5573d-da4b-49e5-86bf-958c9ef2b683" />
+        <classShapeMoniker Id="c1250aab-79c0-42fa-98f4-0894a0d3e520" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 7.35659912109375); (3.5 : 7.35659912109375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/TKQClockDataContext/KhachHang/KhachHang_DonDatHang" />
+      <nodes>
+        <classShapeMoniker Id="28b2aa67-87b9-418f-bd3e-c23384c3be9b" />
+        <classShapeMoniker Id="20a423e2-ccc8-430e-9fa3-675f868cb388" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 1.72199625651042); (3.5 : 1.72199625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/TKQClockDataContext/LoaiDongHo/LoaiDongHo_DongHo" />
+      <nodes>
+        <classShapeMoniker Id="c617b3f7-d88e-43d5-b724-d426b2b9315e" />
+        <classShapeMoniker Id="c1250aab-79c0-42fa-98f4-0894a0d3e520" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

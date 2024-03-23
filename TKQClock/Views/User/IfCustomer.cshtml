@@ -1,0 +1,35 @@
+﻿@using TKQClock.Models
+@model IEnumerable<TKQClock.Models.KhachHang>
+
+
+<div id="Main" class="dathang-section">
+    <div class="col col-half input-data pb6">
+        <h4 class="content">Thông tin người nhận</h4>
+        <div class="col input-name col-30 ">
+            <p class="data-label distance">Họ Tên</p>
+            <p class="data-label distance">Số Điện Thoại</p>
+            <p class="data-label distance">Địa Chỉ</p>
+            <p class="data-label distance">Ngày Đặt</p>
+            <p class="data-label distance">Ngày Giao</p>
+        </div>
+        @{
+            KhachHang kh = (KhachHang)Session["Taikhoan"];
+        }
+        @using (Html.BeginForm())
+        {
+            @Html.ValidationSummary(true)
+            <div class="col input-text col-70">
+                <p class="p6">@kh.TenKH</p><hr>
+                <p class="p6">@kh.SDT</p><hr>
+                <p class="p6">@kh.DiaChi</p><hr>
+                <p class="p6">@kh.GioiTinh</p><hr>
+                <p class="p6">@kh.NgaySinh</p><hr>
+            </div>
+        }
+        @Html.ActionLink("Sữa thông tin", "SuaTTKH")
+    </div>
+
+
+
+
+

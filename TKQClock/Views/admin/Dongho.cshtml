@@ -1,0 +1,124 @@
+﻿@using TKQClock.Models;
+@using PagedList.Mvc;
+@model PagedList.PagedList<TKQClock.Models.DongHo>
+
+@helper Truncate(string input, int length)
+{
+    if (input.Length < length)
+    {
+        @input
+    }
+    else
+    {
+        @input.Substring(0, length) <text>.... </text>
+    }
+}
+
+@{
+    ViewBag.Title = "TKQClock";
+    Layout = "~/Views/Shared/_LayoutQL.cshtml";
+}
+
+
+
+<table class="table">
+    <tr>
+        <th style="width:50px"> TenDH</th>
+        <th style="width:50px"> Anh</th>
+        <th style="width:150px">MoTa</th>
+        <th style="width:50px"> SL.Ton</th>
+        <th style="width:50px"> NgayCN</th>
+        <th style="width:50px"> GiaBan</th>
+        <th style="width:50px">Hang</th>
+        <th style="width:50px"> Loai</th>
+        <th style="width:500px">Noidung</th>
+        <th style="width:50px">Chatlieu</th>
+        <th style="width:50px">Day</th>
+        <th style="width:50px">Kichthuoc</th>
+        <th style="width:50px">Mau</th>
+        <th style="width:50px">MauDC</th>
+        <th style="width:200px"></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenDH)
+            </td>
+            <td>
+                <img src="@Url.Content("~/hinhsp/" + item.ImgUrl)" width="50   " height="50" />
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MoTaNgan)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SoLuongTon)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NgayCapNhat)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GiaBan)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaHDH)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaLoai)
+            </td>
+            <td>
+                @Truncate(item.NoiDung, 70)
+                @Html.ActionLink("xem thêm", "ChiTiet", new { id = item.MaDH })
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ChatLieu)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Dai)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.KichThuoc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Mausac)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Maubanhxe)
+            </td>
+            <td>
+                <div id="btn-updt" class="color-a bc-green rs-form btn-pri-demo c-whi form__submit-small">
+                    <a href="@Url.Action("SuaDH", "admin", new { id = item.MaDH ,  strURL=Request.Url.ToString()  })" style="color: #fff; text-decoration: none">
+                        Sửa
+                    </a>    
+                </div>|
+                <div id="btn-del" class="color-a bc-red rs-form btn-pri-demo c-whi form__submit-small">
+                    <a href="@Url.Action("Xoadongho", "admin", new { id = item.MaDH ,  strURL=Request.Url.ToString()  })" style="color: #fff; text-decoration: none">
+                        Xóa
+                    </a>
+                </div>
+            </td>
+        </tr>
+    }
+
+</table>
+<div id="btn-add" class="color-a bc-blue rs-form btn-pri-demo c-whi form__submit-small" style="margin-bottom: 35px">
+    <style>
+        .add {
+            text-decoration: none !important;
+            color: #fff !important;
+        }
+    </style>
+    @Html.ActionLink("Thêm mới", "Create_Clock", new { @class = "add"})
+</div>
+
+@* tao lien ket trang*@
+<div style="display:block">Trang@(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)/@Model.PageCount</div>
+<div class="MenuTrang">
+    @Html.PagedListPager(Model, page => Url.Action("DongHo", new { page = page }))
+</div>
+<style>
+    .MenuTrang li {
+        display: inline;
+    }
+</style>

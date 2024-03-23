@@ -1,0 +1,86 @@
+﻿
+@using TKQClock.Models;
+@using PagedList.Mvc;
+@model PagedList.PagedList<TKQClock.Models.KhachHang>
+
+@{
+    ViewBag.Title = "TKQClock";
+    Layout = "~/Views/Shared/_LayoutQL.cshtml";
+}
+
+<table class="table">
+
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.First().TenKH)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().NgaySinh)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().GioiTinh)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().SDT)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().DiaChi)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().TenDangNhap)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().MatKhau)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenKH)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NgaySinh)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GioiTinh)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SDT)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DiaChi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenDangNhap)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MatKhau)
+            </td>
+            <td>
+                <div id="btn-updt" class="color-a bc-green rs-form btn-pri-demo c-whi form__submit-small">
+                    <a href="@Url.Action("SuaKH", "admin", new { id = item.MaKH ,  strURL=Request.Url.ToString()  })" style="color: #fff; text-decoration: none">
+                        Sửa
+                    </a>
+                </div>|
+                <div id="btn-del" class="color-a bc-red rs-form btn-pri-demo c-whi form__submit-small">
+                    <a href="@Url.Action("XoaKH", "admin", new { id = item.MaKH ,  strURL=Request.Url.ToString()  })" style="color: #fff; text-decoration: none">
+                        Xóa
+                    </a>
+                </div>
+            </td>
+        </tr>
+    }
+</table>
+@* tao lien ket trang*@
+<div style="display:block">Trang@(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)/@Model.PageCount</div>
+<div class="MenuTrang">
+    @Html.PagedListPager(Model, page => Url.Action("DongHo", new { page = page }))
+</div>
+<style>
+    .MenuTrang li {
+        display: inline;
+    }
+</style>
